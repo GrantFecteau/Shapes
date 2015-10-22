@@ -2,11 +2,9 @@
 public class EquilateralTriangle extends Triangle
 	{
 
-		private double sideLength;
 		
-		public EquilateralTriangle(double b, double h, double s)
+		public EquilateralTriangle(double b, double h)
 		{
-			sideLength = s;
 			
 			base = b;
 			
@@ -16,12 +14,12 @@ public class EquilateralTriangle extends Triangle
 		@Override
 		public double findPerimeter()
 		{
-			return sideLength*3;
+			return base*3;
 		}
 		@Override
 		public double findArea()
 		{
-			return Math.pow(sideLength, 2)/2;
+			return base * height/2;
 		}
 
 

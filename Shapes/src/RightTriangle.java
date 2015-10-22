@@ -4,7 +4,7 @@ public class RightTriangle extends Triangle
 		
 		
 		
-		public RightTriangle (double b, double h, double hP)
+		public RightTriangle (double b, double h)
 		{
 			base = b;
 			
