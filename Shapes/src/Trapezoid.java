@@ -23,8 +23,8 @@ public class Trapezoid extends Quadrilateral
 		@Override
 		public double findPerimeter()
 		{
-			//notfinised
-			return (base1+base2/2)+height;
+			
+			return base1+base2+(side*2);
 		}
 		
 

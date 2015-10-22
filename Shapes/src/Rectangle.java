@@ -13,5 +13,14 @@ public class Rectangle extends Quadrilateral
 			width = w;
 		}
 		
+		public double findArea()
+		{
+			return length * width;
+		}
+		
+		public double findPerimeter()
+		{
+			return ((length*2) + (width*2));
+		}
 		
 	}
