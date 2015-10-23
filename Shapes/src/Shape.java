@@ -14,6 +14,6 @@ public abstract class Shape
 		
 		public String toString()
 			{
-				return "Shape [area=" + area + ", perimeter=" + perimeter + "]";
+				return "Shape [area=" + findArea() + ", perimeter=" + findPerimeter() + "]";
 			}
 	}
